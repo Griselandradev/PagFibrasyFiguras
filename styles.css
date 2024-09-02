@@ -1,0 +1,98 @@
+
+/* general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/*encabezado */
+header {
+    background-color: #fcfcfc;
+    color: white;
+    padding: 1rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 400px;
+    height: 100px;
+    margin-right: 50px;
+    
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* navegación */
+nav {
+    background-color: #333;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-item {
+    background-color: #e6e6e6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+}
+
+.info-item h3 {
+    color: #0073e6;
+}
+
+.info-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/*pie de página */
+footer {
+    background-color: #0073e6; 
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
